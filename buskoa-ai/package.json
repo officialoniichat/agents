@@ -1,0 +1,16 @@
+{
+  "name": "buskoa-ai",
+  "version": "1.0.0",
+  "description": "AI-powered cold calling system with ElevenLabs and Firebase",
+  "scripts": {
+    "init": "firebase init",
+    "deploy": "firebase deploy",
+    "emulators": "firebase emulators:start",
+    "functions:dev": "cd functions && npm run serve",
+    "web:dev": "cd web && npm run dev",
+    "setup": "npm install && cd functions && npm install && cd ../web && npm install"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}
